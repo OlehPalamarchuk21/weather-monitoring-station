@@ -101,6 +101,14 @@ When implementing features:
 - Update documentation as features are added
 - Use package-based organization for refactoring
 
+## Coding Standards
+
+- **No comments**: Do not add comments to the code. Keep code self-explanatory through clear naming and simple logic.
+- **Test methodology**: Use the build-operate-check pattern for all tests:
+  - Build: Set up test data and objects
+  - Operate: Execute the operation being tested
+  - Check: Assert the expected outcomes
+
 ## Key Configuration Notes
 
 - **Application name**: "station" (defined in application.properties)
