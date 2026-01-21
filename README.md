@@ -207,29 +207,6 @@ station/
 ├── CLAUDE.md
 └── README.md
 ```
-
-## Documentation
-
-- **API Requirements**: See `docs/api_requirement.md` for detailed specifications
-- **Development Plan**: See `docs/plan.txt` for the TDD implementation methodology
-- **AI Agent Guide**: See `CLAUDE.md` for guidance when using Claude Code
-
-## Development Methodology
-
-This project was developed following **Test-Driven Development (TDD)** principles:
-
-1. **Red Phase**: Write failing tests first
-2. **Green Phase**: Implement minimal code to pass tests
-3. **Refactor Phase**: Improve code quality while keeping tests green
-
-The development followed a structured phased approach:
-- **Phase 1**: Preparation and documentation
-- **Phase 2**: Planning and design
-- **Phase 3**: TDD implementation with continuous testing
-- **Phase 4**: Refactoring and final documentation
-
-All components include comprehensive unit tests, and the API is validated through integration tests to ensure correct behavior and data constraints.
-
 ## License
 
 This is a demo project for learning and testing purposes.
